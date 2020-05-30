@@ -13,7 +13,7 @@ namespace AbstractFactoryPattern
 
         public VehicleClient(IVehicleFactory vehicleFactory, Interface1 obj)
         {            
-            _bike = vehicleFactory.CreateBikes<T>();
+            //_bike = vehicleFactory.CreateBikes<T>();
         }
 
         public string GetScooter()
